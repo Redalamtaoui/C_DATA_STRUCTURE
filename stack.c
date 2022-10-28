@@ -1,4 +1,3 @@
-#include <stdio.h>
 #define MAX 50
 
 //function nedd : push , pop , getTop  , isEmpty
@@ -38,15 +37,4 @@ int getTop()
 	
 {
 return stack[top];	
-}
-
-
-int main(){
-Push(4);
-Push(2);
-printf("%d - %d" , stack[1] , stack[2]);
-
-printf("\n%d\n" , getTop());
-
-
 }
